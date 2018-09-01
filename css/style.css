@@ -1,0 +1,326 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 80px;
+	width: 100%;
+	background-color: #383E4C;
+	margin: 0px auto;
+	z-index: 2
+}
+
+.nav-list li {
+	display:inline-block;
+	border: 6px solid #646d7c;
+	color: white;
+	font-size: 1.3em;
+	border: 2px black;
+	padding: 15px 20px;
+	line-height: 20px;
+	margin: 0px 7px;
+	transition: 0.3s all ease-in-out;
+}
+
+.nav-list li:hover{
+	background: #49505F;
+	cursor: pointer;
+}
+/*End of nav*/
+
+/*Start intro section*/
+.intro-section {
+	height: 613px;
+	background: url("../img/bg-1.jpg") ;
+	background-size: cover; 
+	background-position: center center;
+}
+
+.intro-section {
+	padding-top:250px
+}
+
+.intro-section>h1, .intro-section>h4 {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+}
+
+.intro-section h1{
+	font-size:70px;
+	text-shadow: 3px 3px black;
+}
+
+.intro-section h4{
+	text-shadow: 1px 1px black;
+}
+/*ENd intro section*/
+
+.about-us-section{
+	margin-top:60px;
+}
+
+/*Start of Our Services Section*/
+.ourservices-section {
+	height: 310px;
+	background: url("../img/bg-2.jpg") ;
+	background-size: cover; 
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.ourservices-section>h1, .ourservices-section>p {
+	color: white;
+}
+
+.ourservices-section{
+	text-align: center;
+	margin: 0px;
+}
+
+.ourservices-section h1{
+	padding-top: 65px;
+	text-shadow: 3px 3px #AAAAAA;
+	font-size: 35px;
+}
+
+.ourservices-subheader
+{
+	position: absolute;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -30%);
+    max-width:706px;
+}
+
+.ourservices-section p {
+	font-size: 20px;
+	z-index: 1
+}
+
+/*End of Our services section*/
+
+/*Contact_us secion*/ 
+
+.contact_us-section {
+	height: 578px;
+	background: url("../img/bg-3.jpg") ;
+	background-size: cover; 
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.contact_us-section form {
+	max-width: 70%;
+}
+
+.contact_us-section .row {
+	display: flex;
+	justify-content: center;
+	padding: 0
+}
+
+.contact_us-section fieldset {
+	padding: 0;
+	margin: 0;
+	
+}
+.contact_us-section h1 {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+	margin-top: 100px;
+	text-shadow: 1px 1px black;
+	margin-bottom: 25px;
+}
+
+.contact_us-section p {
+	color: black;
+}
+
+.contact_us-section .contact_text {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	padding: 5px 25px 5px 25px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contact_us-section fieldset{
+	border: none;
+}
+
+.contact_us-section #left_info {
+	padding: 0;
+	padding-right: 20px;
+}
+
+.contact_us-section #right_info {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	height: 55%
+}
+
+.contact_us-section input, .contact_us-section textarea {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 15px;
+	font-size: 17px;
+	padding: 5px 20px;
+	width: 100%; 
+}
+
+
+.contact_us-section #contact_message {
+	height: 130px;
+}
+
+.contact_us-section button {
+	background-color: #262628;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-left: 50%
+}
+
+.contact_us-section button:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #262628;
+	transition: 0.2s all ease-in-out
+}
+
+
+
+::-webkit-input-placeholder {
+	color: black;
+	opacity: 1
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: black;
+  opacity: 1;
+}
+
+@media (max-width: 780px) {
+	.contact_us-section form{
+		display: block;
+		flex-direction: column;
+	}
+	.contact_us-section .contact_info{
+		display: block;
+		flex-direction: column;
+	}
+	.contact_us-section input, .contact_us-section textarea {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 15px;
+	font-size: 17px;
+	padding: 5px 20px;
+	width: 100%; 
+}
+	.contact_us-section #left_info {
+	padding: 0;
+}
+	.contact_us-section #contact_message {
+	height: 100px;
+}
+	.contact_us-section button {
+		position: relative;
+		right: 50%
+}
+	.contact_us-section {
+	height: 900px;
+	
+}
+	.contact_us-section form {
+	max-width: 
+}
+}
+
+.card {
+	background-color: #F2F2F2;
+	text-align: left
+}
+
+.card h2{
+	text-align: center;
+}
+
+.card p{
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: dimgray;
+}
+
+h2, p{
+	color: dimgray;
+}
+
+.card-12 h2, .card-12 p {
+	text-align: left;
+	padding-left: 25px
+}
+
+.card-12 button {
+	background-color: #FFFFFF;
+	color: gray;
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.card button {
+	background-color: #FFFFFF;
+	color: gray;
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-bottom: 30px;
+	margin-left: px;
+}
+
+.card button:hover {
+	cursor: pointer;
+	background-color: #E1E1E1;
+	color: #262628;
+	transition: 0.2s all ease-in-out
+}
+
+.button_con {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
